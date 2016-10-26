@@ -1,0 +1,53 @@
+h1 {
+font-family: Roboto;
+font-size: 60px;
+line-height: 60.35px;
+color: #ffffff;
+font-weight: bold;
+	
+}
+
+h2 {
+font-family: Roboto;
+font-size: 35px;
+line-height: 41px;
+color: #ffffff;
+font-weight: bold;
+	
+}
+
+.h1-btn {
+font-family: Roboto;
+font-size: 32px;
+line-height: 44px;
+color: #ffffff;
+font-weight: bold;
+
+.slide-text {
+font-family: Roboto;
+font-size: 18px;
+line-height: 22px;
+color: #ffffff;
+font-weight: bold;
+	
+}
+
+.slide-btn {
+font-family: Roboto;
+font-size: 18px;
+line-height: 24px;
+color: #ffffff;
+font-weight: bold;
+	
+}
+
+.banner-first{
+	background-image: url("C:\Users\Женька\Desktop\Новая папка (2)\206427-gllacy-1\img\Малиновый фон.jpg");
+}
+
+.banner-second{
+	background-image: url("C:\Users\Женька\Desktop\Новая папка (2)\206427-gllacy-1\img\Шоколадный фон.jpg");
+}
+
+.features {background-image: url("C:\Users\Женька\Desktop\Новая папка (2)\206427-gllacy-1\img\Фон.jpg");
+}
