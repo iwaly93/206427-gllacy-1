@@ -1,3 +1,39 @@
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 1146px;
+  margin: 0 auto;
+  padding: 0 22px;
+}
+
+.logo{
+	width: 154px;
+	float: left;
+
+.main-navigation {
+  /* Только для оформления сетки */
+  min-height: 73px;
+  width: 412px;
+  float: left;
+
+}
+
+.user-block {
+  /* Только для оформления сетки */
+  min-height: 73px;
+  width: 272px;
+  float: right;
+
+}
+
+
+
 h1 {
 font-family: Roboto;
 font-size: 60px;
