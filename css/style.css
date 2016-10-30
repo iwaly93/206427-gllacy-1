@@ -1,3 +1,48 @@
+
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 1146px;
+  margin: 22px auto;
+  padding: 0 22px;
+  background-color: #849d8f;
+}
+
+.logo{
+	width: 154px;
+	float: left;
+}
+
+.main-navigation {
+  /* Только для оформления сетки */
+  min-height: 73px;
+  width: 412px;
+  float: left;
+}
+  
+.submenu {
+display:none;
+  }
+
+.user-block {
+  /* Только для оформления сетки */
+  min-height: 73px;
+  width: 272px;
+  float: right;
+
+}
+
+.login-form{
+	display:none;
+}
+
+
 h1 {
 font-family: Roboto;
 font-size: 60px;
@@ -22,8 +67,9 @@ font-size: 32px;
 line-height: 44px;
 color: #ffffff;
 font-weight: bold;
+}
 
-.slide-text {
+.banner-text {
 font-family: Roboto;
 font-size: 18px;
 line-height: 22px;
@@ -32,7 +78,7 @@ font-weight: bold;
 	
 }
 
-.slide-btn {
+.banner-btn {
 font-family: Roboto;
 font-size: 18px;
 line-height: 24px;
