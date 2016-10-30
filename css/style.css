@@ -7,16 +7,24 @@
   clear: both;
 }
 
+
+.main-header{
+  /* Только для оформления сетки */
+  background-color: #849d8f;
+}
+
 .container{
   width: 1146px;
-  margin: 22px auto;
+  margin: 0 auto;
   padding: 0 22px;
-  background-color: #849d8f;
+
 }
 
 .logo{
 	width: 154px;
 	float: left;
+	/* Только для оформления сетки */
+	background-color: #f3eac8
 }
 
 .main-navigation {
@@ -24,6 +32,8 @@
   min-height: 73px;
   width: 412px;
   float: left;
+  /* Только для оформления сетки */
+  background-color: pink;
 }
   
 .submenu {
@@ -35,7 +45,8 @@ display:none;
   min-height: 73px;
   width: 272px;
   float: right;
-
+  /* Только для оформления сетки */
+background-color: yellow;
 }
 
 .login-form{
