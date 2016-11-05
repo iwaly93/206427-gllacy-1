@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>GllacyShop</title>
+        <link href="norm\style.css">
         <link href="css\style.css" rel="stylesheet">
     </head>
     <body>
@@ -57,12 +58,13 @@
             <a href="#">Пусто</a>
           </li>
         </ul>
+          <div class="worktime-phone"><p class="worktime">С 10 до 20, ежедневно</p>
+          <p class="phone">8 812 450-25-25</p>
+        </div>
       </header>
 
       <main>
-      	<div class="worktime-phone"><p class="worktime">С 10 до 20, ежедневно</p>
-      	  <p class="phone">8 812 450-25-25</p>
-      	</div>
+      
       	<section class="slide">
       	  <section class="slide-first">
       	    <p> Крем-брюле и пломбир с малиновым джемом</p>
@@ -80,12 +82,12 @@
       	      <img src="img\Мороженко 3.png" width="647" height="584px" alt="Пломбир с помадкой и клубничный сорбет">
       	  </section>
       	</section>
-      	<section class="big-banner">
-          <section class="banner-first">
+      	<section class="big-banner clearfix">
+          <div class="banner-first">
       	    <h2>Малинка даром!</h2>
       	      <p class="banner-text">При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
       	      <a class="banner-btn" href="#">Хочу варенья!</a>
-      	  </section>
+      	  </div>
           <section class="banner-second">
       	    <h2>Шоколадки даром!</h2>
       	      <p class="banner-text">При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки абсолютно бесплатно.</p>
@@ -93,8 +95,8 @@
       	  </section>
         </section>
 
-      	<section class="banner-hits">
-      		<div class="banner-hit">
+      	<section class="banner-hits clearfix">
+      		<div class="banner-hit1">
       		  <b><p class="hit-price">310 р</p></b>
       		    <div class="hit-measure">/кг</div>
                 <img src="img\ХИТ 1.png" width="60px" height="60px" alt="ХИТ">
@@ -115,7 +117,7 @@
                   <img src="img\3.png" width="267px" height="267px" alt="Сливочно-клубничное с присыпкой из белого шоколада">
                     <a href="#">Сливочно-клубничное с присыпкой из белого шоколада</a>
           </div>
-          <div class="banner-hit">
+          <div class="banner-hit4">
             <b><p class="hit-price">415 р</p></b>
       		    <div class="hit-measure">/кг</div>
                 <img src="img\ХИТ 1.png" width="60px" height="60px" alt="ХИТ">
@@ -124,11 +126,11 @@
           </div>
       	</section>
 
-      	<section class="features">
+      	<section class="features clearfix">
           <img src="img\Фон.jpg" width="1146px" height="307px" alt="Вафля">
       		<h3>Магазин Глейси  — это онлайн и офлайн магазин по продаже мороженого собственного производства на развес</h3>
-            <div class="feature-left">
-      	      <div class="features-item">
+      	      <div class="feature-left">
+              <div class="features-item">
               <img src="img\Мороженко.png" width="47px" height="47px" alt="Мороженко">
       	        <p>Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
               </div>
@@ -149,7 +151,7 @@
             </div>
       	</section>
 
-    <section class="blog-subscribe">
+    <section class="blog-subscribe clearfix">
       <div class="blog-index">
         <img src="img\Клубничный фон.png" width="560px" height="220px" alt="Клубничный фон">
           <p>Новое в нашем блоге</p>
@@ -185,8 +187,8 @@
 
     </main>
 
-     <footer class="main-footer">
-      <div class="container">
+     <footer class="main-footer ">
+      <div class="container clearfix">
 
         <section class="footer-social">
          <a class="social-btn social-btn-tw" href="#">Twitter</a>
