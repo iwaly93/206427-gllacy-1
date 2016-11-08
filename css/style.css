@@ -276,6 +276,11 @@ width: 560px;
 margin-bottom: 39px;
 }
 
+.ice-cream-tr {
+width: 1200px;
+clear: both;
+}
+
 .item-ice-cream1{
 	float: left;
 	margin-left: 27px; 
@@ -283,7 +288,7 @@ margin-bottom: 39px;
 	 min-height: 324px;
 }
 
-.item-ice-cream1{
+.item-ice-cream{
 	float: left;
 	margin-left: 26px; 
 	width: 267px;
@@ -297,3 +302,8 @@ margin-bottom: 39px;
 	width: 267px;
 	 min-height: 324px;
 }
+
+table {
+	display:none;
+}
+
